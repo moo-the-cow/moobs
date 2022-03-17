@@ -26,3 +26,10 @@ automatic scene switching on low bitrate/high rtt
 
 persmissions on each command
 
+## Sub Commands
+
+| Object (do not modify!) | Name (alias) | Enabled | Whisper result | Role Permission |
+| ---- | ---- | :---: | --- | -------- |
+| GetVersion | GetVersion | true | false |  broadcaster, moderator  |
+| GetStats | GetStats | true | true | broadcaster, moderator  |
+| SetCurrentSceneCollection | SetCurrentSceneCollection | true | null | broadcaster, moderator |
