@@ -10,7 +10,7 @@ Docker-Compose
 
 modify your [appsettings.conf](appsettings.conf)
 
-fill out everything that is marked like this <>
+fill out everything that is marked like this `<REPLACE ME>`
 
 put all the files into a folder
 
