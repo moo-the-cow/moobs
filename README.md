@@ -1,11 +1,11 @@
 # moobot-light
 
 ## Requirements:
-Docker - Linux Containers
+1. Docker - Linux Containers
 
-Docker-Compose
+2. Docker-Compose
 
-Streaming Setup from
+3. Streaming Setup from
 
 https://github.com/moo-the-cow/streaming
 
