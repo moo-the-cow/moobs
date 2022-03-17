@@ -40,3 +40,18 @@ persmissions on each command
 | SetCurrentSceneCollection | SetCurrentSceneCollection | true | null | broadcaster, moderator |
 | SetCurrentProgramScene | SetCurrentProgramScene | true | null | broadcaster, moderator |
 | SetSceneItemEnabled | SetSceneItemEnabled | true | null | broadcaster, moderator |
+
+## Usage on Twitch
+`!obs GetVersion` will show
+
+*MoobsWebsocket v1.0 on Moobot-light (OBS: <OBS_VERSION>)*
+
+`!obs GetStats` will whisper the user who triggerd the command OBS Stats (only remaining recording diskspace for now)
+
+*Diskspace Left: 94,26 GB*
+
+`!obs SetCurrentSceneCollection <SCENECOLLECTION_NAME>` will switch to the scene collection with that name
+
+`!obs SetCurrentProgramScene <SCENE_NAME>` will switch to the scene with that name
+
+`!obs SetSceneItemEnabled <ITEM_NAME>` will switch to the Source of the current selected Scene with that name
