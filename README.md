@@ -43,8 +43,13 @@ persmissions on each command
 | SetCurrentProgramScene | SetCurrentProgramScene | true | null | broadcaster, moderator |
 | SetSceneItemEnabled | SetSceneItemEnabled | true | null | broadcaster, moderator |
 
-### Role Options
-broadcaster, moderator, vip, subscriber, `<USERNAME>`, everyone
+### Role Groups
+(attribute `group`)
+
+broadcaster, moderator, vip, subscriber, turbo, partner, staff, everyone
+
+### User Role
+Requires the attribute `username` and then the username value `<USERNAME>`
 
 ## Usage on Twitch
 `!obs GetVersion` will show
