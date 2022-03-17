@@ -1,0 +1,21 @@
+version: '3.8'
+services:
+  moobot-light:
+    image: moothecow/moobot-light:$MOOBOT_VERSION
+    container_name: moobot-light
+    restart: unless-stopped
+    stdin_open: true
+    tty: true
+    environment:
+      - ASPNETCORE_ENVIRONMENT=$ENVIRONMENT
+      - DOTNET_USE_POLLING_FILE_WATCHER=$POLLING_FILE_WATCHER
+      - DOTNET_SYSTEM_GLOBALIZATION_INVARIANT=$GLOBALIZATION
+      - REGION=$REGION
+    volumes:
+      - ./appsettings.json:/app/appsettings.$ENVIRONMENT.json
+    healthcheck:
+      test: curl --fail http://localhost/healthcheck || exit 1
+      interval: 1m30s
+      timeout: 10s
+      retries: 3
+      start_period: 5s
