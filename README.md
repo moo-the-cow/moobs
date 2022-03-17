@@ -1,15 +1,11 @@
 # moobot-light
 
 ## Requirements:
-1. Docker - Linux Containers
+- Docker - Linux Containers
 
-2. Docker-Compose
+- Docker-Compose
 
-3. Streaming Setup from
-
-https://github.com/moo-the-cow/streaming
-
-MINUS the noalbs version, which this bot will replace. I will properly add this here in time
+- Streaming Setup from https://github.com/moo-the-cow/streaming MINUS the noalbs version, which this bot will replace. I will properly add this here in time
 
 
 ## Setup (based on windows environment):
