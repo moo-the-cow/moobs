@@ -26,6 +26,11 @@ automatic scene switching on low bitrate/high rtt
 
 persmissions on each command
 
+## Main Command
+| Object (do not modify!) | Name (alias) | Enabled | Role Permission |
+| ---- | ---- | :---: | -------- |
+| Obs | !obs | true |  broadcaster, moderator  |
+
 ## Sub Commands
 
 | Object (do not modify!) | Name (alias) | Enabled | Whisper result | Role Permission |
@@ -33,3 +38,5 @@ persmissions on each command
 | GetVersion | GetVersion | true | false |  broadcaster, moderator  |
 | GetStats | GetStats | true | true | broadcaster, moderator  |
 | SetCurrentSceneCollection | SetCurrentSceneCollection | true | null | broadcaster, moderator |
+| SetCurrentProgramScene | SetCurrentProgramScene | true | null | broadcaster, moderator |
+| SetSceneItemEnabled | SetSceneItemEnabled | true | null | broadcaster, moderator |
