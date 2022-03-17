@@ -44,7 +44,7 @@ persmissions on each command
 | SetSceneItemEnabled | SetSceneItemEnabled | true | null | broadcaster, moderator |
 
 ### Role Options
-broadcaster, moderator, vip, subscriber, <USERNAME>, everyone
+broadcaster, moderator, vip, subscriber, `<USERNAME>`, everyone
 
 ## Usage on Twitch
 `!obs GetVersion` will show
