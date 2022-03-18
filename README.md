@@ -43,13 +43,18 @@ persmissions on each command
 | SetCurrentProgramScene | SetCurrentProgramScene | true | null | broadcaster, moderator |
 | SetSceneItemEnabled | SetSceneItemEnabled | true | null | broadcaster, moderator |
 
-### Role Groups
+### Group Roles
 (attribute `group`)
 
 broadcaster, moderator, vip, subscriber, turbo, partner, staff, everyone
 
 ### User Role
 Requires the attribute `username` and then the username value `<USERNAME>`
+
+example (non-working) entry for a user
+```
+"DummyCommand": {"name":"DummyCommandName", "enabled":true, "permission":[{"group":"moderator","cooldown":0},{"username":"m_o_o_","cooldown":0}]},
+```
 
 ## Usage on Twitch
 `!obs GetVersion` will show
