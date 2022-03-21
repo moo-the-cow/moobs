@@ -59,7 +59,7 @@ example (non-working) entry for a user
 ## Usage on Twitch
 `!obs GetVersion` will show
 
-*MoobsWebsocket v1.0 on Moobot-light (OBS: <OBS_VERSION>)*
+*MoobsWebsocket v1.0 on Moobot-Obs (OBS: <OBS_VERSION>)*
 
 `!obs GetStats` will whisper the user who triggerd the command OBS Stats (only remaining recording diskspace for now)
 
