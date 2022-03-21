@@ -1,4 +1,4 @@
-# moobot-light
+# moobot-obs
 
 ## Requirements:
 - Docker - Linux Containers
