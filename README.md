@@ -37,20 +37,20 @@ persmissions on each command
 
 ## Sub Commands
 
-| Object (do not modify!) | Name (alias) | Enabled | Whisper result | Role Permission |
+| Object (do not modify!) | Name (alias) | Arguments | Enabled | Whisper result | Role Permission
 | ---- | ---- | :---: | --- | -------- |
-| GetVersion | GetVersion | true | false |  broadcaster, moderator  |
-| GetStats | GetStats | true | true | broadcaster, moderator  |
-| SetCurrentSceneCollection | SetCurrentSceneCollection | true | null | broadcaster, moderator |
-| SetCurrentProgramScene | SetCurrentProgramScene | true | null | broadcaster, moderator |
-| StartStream | start | true | null | broadcaster, moderator |
-| StopStream | stop | true | null | broadcaster, moderator |
-| StartRecord | SetSceneItemEnabled | true | null | broadcaster, moderator |
-| StopRecord | SetSceneItemEnabled | true | null | broadcaster, moderator |
-| SetRtt | SetSceneItemEnabled | true | null | broadcaster, moderator |
-| SetBitrate | SetSceneItemEnabled | true | null | broadcaster, moderator |
-| Autoswitch | SetSceneItemEnabled | true | null | broadcaster, moderator |
-| SendTwitchMessages | SetSceneItemEnabled | true | null | broadcaster, moderator |
+| GetVersion | version | (none) | true | false |  broadcaster, moderator  |
+| GetStats | stats | (none) | true | true | broadcaster, moderator  |
+| SetCurrentSceneCollection | (string name of scene collection) | SetCurrentSceneCollection | true | null | broadcaster, moderator |
+| SetCurrentProgramScene | scene | (string name of scene) | true | null | broadcaster, moderator |
+| StartStream | start | (none) | true | null | broadcaster, moderator |
+| StopStream | stop | (none) | true | null | broadcaster, moderator |
+| StartRecord | StartRecord | (none) | true | null | broadcaster, moderator |
+| StopRecord | StopRecord | (none) | true | null | broadcaster, moderator |
+| SetRtt | SetRtt | (number) | true | null | broadcaster, moderator |
+| SetBitrate | SetBitrate | (number) | true | null | broadcaster, moderator |
+| Autoswitch | Autoswitch | (false/true) | (string name of scene collection) | true | null | broadcaster, moderator |
+| SendTwitchMessages | twitchmessages | (false/true) | true | null | broadcaster, moderator |
 
 ### Group Roles
 (attribute `group`)
