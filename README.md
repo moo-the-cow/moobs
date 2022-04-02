@@ -34,6 +34,7 @@ persmissions on each command
 | Object (do not modify!) | Name (alias) | Enabled | Role Permission |
 | ---- | ---- | :---: | -------- |
 | Obs | !obs | true |  broadcaster, moderator  |
+| NginxStats | !br | true |  broadcaster, moderator  |
 
 ## Sub Commands
 
