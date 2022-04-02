@@ -82,3 +82,16 @@ example (non-working) entry for a user
 `!obs twitchmessages false` will disable/enable twitch messages for autoswitch (in case of spam)
 
 `!obs Autoswitch false` will disable/enable autoswitch on bad connections completely (so you have to set it manually!)
+
+
+`!obs start` will start the stream and switch to the scene defined in the autoswitch "Starting" property in your settings
+
+`!obs stop` will stop the stream and switch to the scene defined in the autoswitch "Offline" property in your settings
+
+`!obs StartRecord` will start your OBS recording (make sure you configured OBS properly)
+
+`!obs StopRecord` will stop your OBS recording (make sure you configured OBS properly)
+
+`!obs SetRtt <NUMBER>` will overwrite the the threshold RTT settings for autoswitch on bad connections, so be careful (high is bad connection)
+
+`!obs SetBitrate <NUMBER>` will overwrite the the threshold Bitrate settings for autoswitch on bad connections, so be careful (low is bad connection)
