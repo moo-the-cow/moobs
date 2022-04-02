@@ -38,7 +38,7 @@ persmissions on each command
 ## Sub Commands
 
 | Object (do not modify!) | Name (alias) | Arguments | Enabled | Whisper result | Role Permission
-| ---- | ---- | :---: | --- | -------- |
+| ---- | ---- | ---- | :---: | --- | -------- |
 | GetVersion | version | (none) | true | false |  broadcaster, moderator  |
 | GetStats | stats | (none) | true | true | broadcaster, moderator  |
 | SetCurrentSceneCollection | (string name of scene collection) | SetCurrentSceneCollection | true | null | broadcaster, moderator |
