@@ -67,16 +67,18 @@ example (non-working) entry for a user
 ```
 
 ## Usage on Twitch
-`!obs GetVersion` will show
+`!obs version` will show
 
 *MoobsWebsocket v1.0 on Moobot-Obs (OBS: <OBS_VERSION>)*
 
-`!obs GetStats` will whisper the user who triggerd the command OBS Stats (only remaining recording diskspace for now)
+`!obs stats` will whisper the user who triggerd the command OBS Stats (only remaining recording diskspace for now)
 
 *Diskspace Left: 94,26 GB*
 
 `!obs SetCurrentSceneCollection <SCENECOLLECTION_NAME>` will switch to the scene collection with that name
 
-`!obs SetCurrentProgramScene <SCENE_NAME>` will switch to the scene with that name
+`!obs scene <SCENE_NAME>` will switch to the scene with that name
 
-`!obs SetSceneItemEnabled <ITEM_NAME>` will switch to the Source of the current selected Scene with that name
+`!obs twitchmessages false` will disable/enable twitch messages for autoswitch (in case of spam)
+
+`!obs Autoswitch false` will disable/enable autoswitch on bad connections completely (so you have to set it manually!)
