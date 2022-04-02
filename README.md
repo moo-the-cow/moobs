@@ -41,7 +41,7 @@ persmissions on each command
 | ---- | ---- | ---- | :---: | --- | -------- |
 | GetVersion | version | (none) | true | false |  broadcaster, moderator  |
 | GetStats | stats | (none) | true | true | broadcaster, moderator  |
-| SetCurrentSceneCollection | (string name of scene collection) | SetCurrentSceneCollection | true | null | broadcaster, moderator |
+| SetCurrentSceneCollection | SetCurrentSceneCollection | (string name of scene collection) | true | null | broadcaster, moderator |
 | SetCurrentProgramScene | scene | (string name of scene) | true | null | broadcaster, moderator |
 | StartStream | start | (none) | true | null | broadcaster, moderator |
 | StopStream | stop | (none) | true | null | broadcaster, moderator |
