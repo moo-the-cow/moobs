@@ -1,5 +1,7 @@
 # moobot-obs
 
+# Announcement: this should be stable by now - I will write an update after a successful stream
+
 ## Requirements:
 - Docker - Linux Containers
 
@@ -41,7 +43,14 @@ persmissions on each command
 | GetStats | GetStats | true | true | broadcaster, moderator  |
 | SetCurrentSceneCollection | SetCurrentSceneCollection | true | null | broadcaster, moderator |
 | SetCurrentProgramScene | SetCurrentProgramScene | true | null | broadcaster, moderator |
-| SetSceneItemEnabled | SetSceneItemEnabled | true | null | broadcaster, moderator |
+| StartStream | start | true | null | broadcaster, moderator |
+| StopStream | stop | true | null | broadcaster, moderator |
+| StartRecord | SetSceneItemEnabled | true | null | broadcaster, moderator |
+| StopRecord | SetSceneItemEnabled | true | null | broadcaster, moderator |
+| SetRtt | SetSceneItemEnabled | true | null | broadcaster, moderator |
+| SetBitrate | SetSceneItemEnabled | true | null | broadcaster, moderator |
+| Autoswitch | SetSceneItemEnabled | true | null | broadcaster, moderator |
+| SendTwitchMessages | SetSceneItemEnabled | true | null | broadcaster, moderator |
 
 ### Group Roles
 (attribute `group`)
