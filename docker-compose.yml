@@ -4,7 +4,6 @@ services:
     image: moothecow/moobot-obs:$MOOBOT_VERSION
     container_name: moobot-obs
     restart: unless-stopped
-    stdin_open: true
     tty: true
     environment:
       - ASPNETCORE_ENVIRONMENT=$ENVIRONMENT
