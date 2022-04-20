@@ -1,4 +1,4 @@
-# moobot-obs
+# moobs
 
 **First stable version: 1.41**
 
