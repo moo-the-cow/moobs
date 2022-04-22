@@ -11,6 +11,7 @@ services:
       - DOTNET_SYSTEM_GLOBALIZATION_INVARIANT=$GLOBALIZATION
       - REGION=$REGION
       - MOOBOT_VERSION=$MOOBOT_VERSION
+      - TZ=$TZ
     volumes:
       - ./appsettings.json:/app/appsettings.$ENVIRONMENT.json
     healthcheck:
