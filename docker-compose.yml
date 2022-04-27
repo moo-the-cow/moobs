@@ -12,6 +12,7 @@ services:
       - REGION=$REGION
       - MOOBOT_VERSION=$MOOBOT_VERSION
       - TZ=$TZ
+      - ISWIN=$ISWIN
     volumes:
       - ./appsettings.json:/app/appsettings.$ENVIRONMENT.json
     healthcheck:
