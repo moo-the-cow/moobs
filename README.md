@@ -1,6 +1,6 @@
 # moobs
 
-** Current stable version: 1.43**
+**Current stable version: 1.43**
 
 **First stable version: 1.42**
 
